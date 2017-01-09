@@ -14,6 +14,6 @@ class StoryOneService {
   storyOneArg;
 
   constructor(storyOneArg) {
-    this.storyOneArg = storyOneArg;
+    this.storyOneArg = storyOneArg + 1;
   }
 }
