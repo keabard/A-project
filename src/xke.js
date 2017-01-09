@@ -9,3 +9,11 @@ class XKE {
     return this.field;
   }
 }
+
+class StoryOneService {
+  storyOneArg;
+
+  constructor(storyOneArg) {
+    this.storyOneArg = storyOneArg + 10 - 5;
+  }
+}
